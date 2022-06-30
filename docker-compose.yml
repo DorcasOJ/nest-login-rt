@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: postgress:12
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234d
+      POSTGRES_DB: loginNest
+
